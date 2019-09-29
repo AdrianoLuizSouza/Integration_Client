@@ -11,5 +11,7 @@ https://github.com/react-bootstrap/react-bootstrap
 <h3>To run you need:</h3>
 
 1 - Clone
+
 2 - Run $ npm install
+
 3 - Run $ npm start
