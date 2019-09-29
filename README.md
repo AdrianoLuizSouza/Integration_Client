@@ -1,4 +1,4 @@
-Using in this project:
+<h2>Using in this project</h2>
 
 <h3>react-fontawesome</h3>
 
