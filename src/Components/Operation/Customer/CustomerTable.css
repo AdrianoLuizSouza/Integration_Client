@@ -1,0 +1,24 @@
+
+.table th {
+    text-align: center;
+}
+
+
+.table {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.table td {
+    text-align: center;
+}
+
+.ComandCol  {
+    width: 5%;
+    min-width: 50px;
+}
+
+@media (max-width: 768px) {
+    .NoShowMobile  {
+        display: none;
+    }
+}
