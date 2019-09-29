@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route ,Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
 
 import { createBrowserHistory } from "history"
@@ -15,12 +15,10 @@ class AppRoute extends React.Component {
         return (
             <div>
                 <Router history={history}>
-                    <Switch>
                         <Route exact path='/' component={Master}>
                             <Route path='/about' component={About}/>
                             <Route path='*' component={NotFound}/>
                         </Route>
-                    </Switch>
                 </Router>
             </div>
         )
