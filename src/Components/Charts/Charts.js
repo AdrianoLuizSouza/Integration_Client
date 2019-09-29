@@ -7,7 +7,7 @@ import {Container,
 
 class Charts extends React.Component{
     render(){
-        return(
+        return(    
             <Container>
                 <Row>
                     <Col  xs={12} md={3}>
