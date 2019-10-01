@@ -23,7 +23,7 @@ class CustomerTable extends React.Component {
       return (
 
             <Table  striped bordered hover size="sm" responsive="sm">
-            <thead>
+            <thead class="thead-light">
                 <tr>
                 <th className="ComandCol"> 
                    <CustomerAdd />  

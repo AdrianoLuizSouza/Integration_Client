@@ -10,7 +10,7 @@ class Menu extends React.Component {
     render() {
       return (
          <Navbar className="box-shadow" bg="light" expand="lg">
-          <Navbar.Brand href="#home">Integration Client</Navbar.Brand>
+          <Navbar.Brand>Integration Client</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
